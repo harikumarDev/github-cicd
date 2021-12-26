@@ -1,0 +1,9 @@
+name: Github workflows learn
+on: [push]
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello world!!"
+      - run: echo "Another step.."
+      - run: echo "Yet another step!"
